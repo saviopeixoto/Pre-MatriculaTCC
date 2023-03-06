@@ -1,0 +1,11 @@
+{
+  "name": "Matricula Facil",
+  "short_name": "Matricula",
+  "theme_color": "#f35021",
+  "background_color": "#2487d6",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "pt-BR",
+  "scope": "/",
+  "start_url": "/?utm_source=homescreen"
+}

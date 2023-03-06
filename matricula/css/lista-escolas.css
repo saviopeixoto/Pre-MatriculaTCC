@@ -1,0 +1,28 @@
+#lista-escolas, ul {
+	list-style:none;
+}
+.bairro {
+	font-size:14px;
+	font-weight:bold;
+	color:#cd3530;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px #999 dashed; 
+}
+.escola {
+	margin-left:15px;
+}
+.escola li {
+	font-size:12px;
+	color:#000;
+	/*height:18px;
+	line-height:18px;*/
+	margin-bottom:5px;
+	font-weight:normal;
+}
+.endereco {
+	font-size:10px;
+	color:#999;
+	padding-left:5px;
+	font-weight:bold;
+}

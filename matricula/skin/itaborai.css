@@ -1,0 +1,68 @@
+.btn-top {
+	padding: 20px 30px;
+	font-size: 30px;
+	margin: 0 5px;
+}
+.row-top {
+	background-color: #eaeaea;
+	padding: 8px 5px;
+	display: inline-table;
+	margin: -74px auto 0 auto;
+	border-radius: 9px;
+}
+.rowinfo {
+	font-size: 20px;
+	max-width: 740px;
+	margin: auto;
+}
+.panel-warning {
+	color: black;
+	background-color: #f3bf77;
+	border-color: #eea236;
+}
+.panel-danger {
+	color: black;
+	background-color: #ffe5e5;
+	border-color: red;
+}
+.jumbotron-top {
+	background-image: url(/skin/img01.jpg);
+	background-size: cover;
+	height: 348px;
+	border-top: 10px solid #e7975a;
+	border-bottom: 10px solid #eaeaea;
+	margin-bottom: -55px;
+}
+.jumbotron-top img {
+	margin-top: -10px;
+	width: 390px;
+}
+@media (max-width: 800px) {
+	.row-top .btn {
+		width: calc(100% - 10px);
+		margin-bottom: 9px;
+	}
+	.panel-body b {
+		word-break: break-all;
+	}
+}
+@media (max-width: 500px) {
+	.row-top .btn {
+		font-size: 18px;
+	}
+	.panel-body {
+		font-size: 16px;
+	}
+	.jumbotron-top {
+		height: 200px;
+	}
+	.jumbotron-top img {
+		width: 180px;
+	}
+}
+@media (max-width: 300px) {
+	.btn-top {
+		padding: 15px 5px !important;
+		font-size: 14px !important;
+	}
+}

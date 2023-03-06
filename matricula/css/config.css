@@ -1,0 +1,144 @@
+body {
+	padding: 0;
+	margin: 0;
+	font: 12px Arial, Helvetica, sans-serif;
+	overflow-y: scroll;
+}
+html, body {
+	height: 100%;
+}
+#tudo {
+	min-height: 100%;
+	position: relative;
+}
+* html #tudo {
+	height: 100%;
+}
+#rodape {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+}
+#meio {
+	margin: 10px 0 0 0;
+	padding-bottom: 70px;
+}
+.float-l {
+	float:left;
+}
+.float-r {
+	float:right;
+}
+.clear {
+	clear: both;
+}
+.box {
+	margin: 0 10px;
+	min-height: 100px;
+	overflow: visible;
+	position: relative;
+	padding: 20px 0 0 2px;
+}
+.conteudo {
+	margin: 0 auto !important;
+	min-width: 960px;
+	text-align: left;
+	width: 960px;
+}
+.bloco {
+	overflow: hidden;
+	width: 100%;
+}
+.caixa-1, .caixa-2, .caixa-3, .caixa-4, .caixa-5, .caixa-6, .caixa-7, .caixa-8, .caixa-9, .caixa-10, .caixa-11, .caixa-12 {
+	display: inline;
+	float: left;
+	margin: 0 0.833em;
+}
+.caixa-1 {
+	min-width: 60px;
+	width: 5em;
+}
+.caixa-2 {
+	min-width: 140px;
+	width: 11.665em;
+}
+.caixa-3 {
+	min-width: 220px;
+	width: 18.333em;
+}
+.caixa-4 {
+	min-width: 300px;
+	width: 25em;
+}
+.caixa-5 {
+	min-width: 380px;
+	width: 31.665em;
+}
+.caixa-6 {
+	min-width: 460px;
+	width: 38.333em;
+}
+.caixa-7 {
+	min-width: 540px;
+	width: 45em;
+}
+.caixa-8 {
+	min-width: 620px;
+	width: 51.665em;
+}
+.caixa-9 {
+	min-width: 700px;
+	width: 58.333em;
+}
+.caixa-10 {
+	min-width: 780px;
+	width: 65em;
+}
+.caixa-11 {
+	min-width: 860px;
+	width: 71.665em;
+}
+.caixa-12 {
+	min-width: 940px;
+	width: 78.333em;
+}
+.caixa-1, .caixa-2, .caixa-3, .caixa-4, .caixa-5, .caixa-6, .caixa-7, .caixa-8, .caixa-9, .caixa-10, .caixa-11, .caixa-12 {
+	margin-bottom: 10px;
+}
+.primeiro {
+	margin-left: 0;
+}
+.ultimo {
+	margin-right: 0;
+}
+img {
+	border:0;
+}
+.no-margin-t {
+	margin-top: 0;
+}
+.no-margin-r {
+	margin-right: 0;
+}
+.no-margin-b {
+	margin-bottom: 0;
+}
+.no-margin-l {
+	margin-left: 0;
+}
+.no-margin {
+	margin: 0;
+}
+.space {
+	height:20px;
+}
+.center {
+	text-align:center;
+}
+.left {
+	text-align:left;
+}
+.right {
+	text-align:right;
+}
+
